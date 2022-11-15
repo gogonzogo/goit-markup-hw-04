@@ -41,7 +41,7 @@
           <ul class="header-contacts-list">
             <li class="header-contacts-item">
               <a href="mailto:info@devstudio.com" class="header-contacts-link">
-                <svg class="link-icon" width="16" height="12">
+                <svg class="link-icon" width="32" height="24">
                   <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
@@ -49,7 +49,7 @@
             </li>
             <li class="header-contacts-item">
               <a href="tel:+380961111111" class="header-contacts-link">
-                <svg class="link-icon" width="10" height="16">
+                <svg class="link-icon" width="20" height="32">
                   <use href="./images/sprite.svg#icon-smartphone"></use>
                 </svg>
                 +380961111111
@@ -77,10 +77,9 @@
           <h2 class="benefits visually-hidden">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
-                <a href="" class="benefits-icon-parent"> <svg class="benefits-icon" width="70" height="70">
+                <svg class="benefits-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
-                </a>
               <h3 class="benefits-title">ATTENTION TO DETAILS</h3>
               <p class="benefits-summary">
                 We go into all the details and processes of your business to
@@ -88,10 +87,9 @@
               </p>
             </li>
             <li class="benefits-item">
-               <a href="" class="benefits-icon-parent"> <svg class="benefits-icon" width="70" height="70">
+               <svg class="benefits-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
-                </a>
               <h3 class="benefits-title">PUNCTUALITY</h3>
               <p class="benefits-summary">
                 With us, you can feel safe and secure. An important principle of
@@ -99,10 +97,9 @@
               </p>
             </li>
             <li class="benefits-item">
-               <a href="" class="benefits-icon-parent"> <svg class="benefits-icon" width="70" height="70">
+                <svg class="benefits-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
-                </a>
               <h3 class="benefits-title">PLANNING</h3>
               <p class="benefits-summary">
                 You will be able to observe and participate in every phase of
@@ -110,10 +107,9 @@
               </p>
             </li>
             <li class="benefits-item">
-               <a href="" class="benefits-icon-parent"> <svg class="benefits-icon" width="70" height="70">
+                <svg class="benefits-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
-                </a>
               <h3 class="benefits-title">MODERN TECHNOLOGIES</h3>
               <p class="benefits-summary">
                 We use innovative tools to solve assigned tasks. It's time to
@@ -335,7 +331,7 @@
       <!-- REGULAR CUSTOMER -->
       <section class="section regular-customers-section">
         <div class="container">
-          <h3 class="regular-customers-title">Regular Customers</h3>
+          <h2 class="regular-customers-title">Regular Customers</h2>
           <ul class="regular-customers-list">
             <li class="regular-customers-item">
               <a href="" class="regular-customers-link">
@@ -384,27 +380,35 @@
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="footer-section">
       <div class="container footer-container">
-        <a class="logo footer-logo" href="./index.html">WebStudio</a>
-        <address>
-          <ul class="footer-contacts-list">
-            <li class="footer-contacts-item">
-              <a class="footer-contacts-link-address" href="https://goo.gl/maps/7hkbFZoG83Kui2D87"
-                target="_blank"
-                >695 Park Ave, New York, NY 10065, <br />
-                United States</a>
-            </li>
-            <li class="footer-contacts-item">
-              <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li class="footer-contacts-item">
-              <a class="footer-contacts-link" href="tel:+12127724150">+12127724150</a>
-            </li>
-          </ul>
-          
+        <!-- FOOTER LOGO, CONTACTS & ADDRESS -->
+        <div class="footer-container-left">
+          <a class="logo footer-logo" href="./index.html">WebStudio</a>
+          <address>
+            <ul class="footer-contacts-list">
+              <li class="footer-contacts-item">
+                <a class="footer-contacts-link-address" href="https://goo.gl/maps/7hkbFZoG83Kui2D87"
+                  target="_blank"
+                  >695 Park Ave, New York, NY 10065, <br />
+                  United States
+                </a>
+              </li>
+              <li class="footer-contacts-item">
+                <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li class="footer-contacts-item">
+                <a class="footer-contacts-link" href="tel:+12127724150">+12127724150</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        
+        <!-- FOOTER SOCIAL LINKS -->
+        <div class="footer-container-middle">
+          <h3 class="footer-socials-title">FIND US ON</h3>
           <ul class="socials-list">
-            <li class="socials-item"><p class="socials-comment">FIND US ON</p></li>
             <li class="socials-item">
               <a href="" class="socials-link">
                 <svg class="socials-icon" width="20" height="20">
@@ -434,9 +438,7 @@
               </a>
             </li>
           </ul>
-        </address>
-        
-          
+        </div>
       </div>
     </footer>
   </body>

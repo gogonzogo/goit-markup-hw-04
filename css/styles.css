@@ -195,20 +195,6 @@ ul {
 }
 
 /* Benefits */
-.benefits-icon-parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-dark-color);
-    width: 270px;
-    height: 120px;
-}
-
-.benefits-icon {
-    background-color: var(--background-dark-color);
-    border-radius: 4px;
-    border-color: var(--background-dark-color);
-}
 
 .benefits-list {
     display: flex;
@@ -216,10 +202,24 @@ ul {
 
 .benefits-item {
     width: 270px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
 }
 
 .benefits-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.benefits-icon {
+    background-color: blue;
+    border-radius: 4px;
+    border-color: red;
+    height: 120px;
+    align-items: center;
+    background-size: 270px;
+    width: 270px;
+    
 }
 
 .benefits-title {
@@ -311,6 +311,7 @@ ul {
     line-height: calc(19/16);
     text-align: center;
     color: var(--secondary-text-color);
+    margin-bottom: 16px;
 }
 
 .socials-list {
@@ -396,7 +397,7 @@ ul {
 
 .footer-container {
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -442,11 +443,16 @@ ul {
     color: var(--accent-color);
 }
 
-.footer-contacts-list:last-child {
-    padding-bottom: 60px;
+.footer-container-left {
+    margin-right: 70px;
 }
-/* FOOTER SOCIALS TESTING START */
-.socials-comment {
+
+.footer-container-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -454,10 +460,9 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--secondary-title-color);
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
-
-/* FOOTER SOCIALS TESTING END */
 
 /* Portfolio Styles */
 /* Portfolio Filters Section */
